@@ -1,0 +1,14 @@
+C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\bin\Debug\ProjetoApostila.exe.config
+C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\bin\Debug\ProjetoApostila.exe
+C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\bin\Debug\ProjetoApostila.pdb
+C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.csproj.AssemblyReference.cache
+C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.csproj.SuggestedBindingRedirects.cache
+C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.Properties.Resources.resources
+C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.csproj.GenerateResource.cache
+C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.csproj.CoreCompileInputs.cache
+C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.exe
+C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.pdb
+C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.frmLogin.resources
+C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.Formularios.frmTelaPrincipal.resources
+C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.Formularios.testes.resources
+C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.Formularios.frmSplash.resources
