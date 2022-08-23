@@ -58,6 +58,8 @@
             // 
             // timer1
             // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 32;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // frmSplash
@@ -77,6 +79,7 @@
             this.MinimizeBox = false;
             this.Name = "frmSplash";
             this.Text = "Iniciando";
+            this.Load += new System.EventHandler(this.frmSplash_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

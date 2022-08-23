@@ -20,10 +20,10 @@ namespace ProjetoApostila
         SqlConnection conn = new SqlConnection(Properties.Settings.Default.ServicoConnectionString);
         public frmLogin()
         {
-            Thread load = new Thread(new ThreadStart(SplashScreen));
-            load.Start();
-            Thread.Sleep(5000);
-            load.Abort();
+            /*Thread t = new Thread(new ThreadStart(SplashScreen));
+            t.Start();
+            Thread.Sleep(10000);
+            t.Abort();*/
             InitializeComponent();
         }
         public void SplashScreen()
@@ -54,7 +54,7 @@ namespace ProjetoApostila
                     {
                         usuarioConectado = usuarioComboBox.Text; // usuarioConectado recebe o valor do usuario
                         nivelAcesso = nivelAcessoComboBox.Text; // var recebe o tipo de user
-                        Formularios.frmTelaPrincipal main = new Formularios.frmTelaPrincipal();
+                        Formularios.frmUsuarios main = new Formularios.frmUsuarios();
                         this.Hide();
                         main.Show();
                     } else

@@ -19,7 +19,7 @@ namespace ProjetoApostila.Formularios
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            progressBar1.Increment(1);
+            progressBar1.Increment(4);
             if (progressBar1.Value == 100)
                 timer1.Stop();
             this.Opacity = 0;
@@ -27,8 +27,13 @@ namespace ProjetoApostila.Formularios
             {
                 this.Opacity = cont;
                 this.Refresh();
-                System.Threading.Thread.Sleep(15);
+                System.Threading.Thread.Sleep(12);
             }
+        }
+
+        private void frmSplash_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

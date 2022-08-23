@@ -16,5 +16,20 @@ namespace ProjetoApostila.Formularios
         {
             InitializeComponent();
         }
+
+        private void tbServisoBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.tbServisoBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.servicoDataSet);
+
+        }
+
+        private void frmServico_Load(object sender, EventArgs e)
+        {
+            // TODO: esta linha de código carrega dados na tabela 'servicoDataSet.tbServiso'. Você pode movê-la ou removê-la conforme necessário.
+            this.tbServisoTableAdapter.Fill(this.servicoDataSet.tbServiso);
+
+        }
     }
 }
