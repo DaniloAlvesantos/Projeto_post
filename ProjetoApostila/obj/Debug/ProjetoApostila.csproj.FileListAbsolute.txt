@@ -13,3 +13,4 @@ C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\Projet
 C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.Formularios.testes.resources
 C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.Formularios.frmSplash.resources
 C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.Formularios.frmUsuarios.resources
+C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.Formularios.frmServico.resources

@@ -149,5 +149,16 @@ namespace ProjetoApostila.Formularios
             dataDiaTextBox.Text = tbUsuarioDataGridView.CurrentRow.Cells[5].Value.ToString();
             cadastradoPorTextBox.Text = tbUsuarioDataGridView.CurrentRow.Cells[6].Value.ToString();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmServico serv = new frmServico();
+            serv.Show();
+        }
+
+        private void frmUsuarios_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
