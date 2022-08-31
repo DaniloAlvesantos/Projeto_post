@@ -52,7 +52,7 @@ namespace ProjetoApostila.Formularios
                     }
                     this.Validate();
                     this.tbServisoBindingSource.EndEdit();
-                    this.tableAdapterManager.UpdateAll(this.servicoDataSet);
+                    this.tbServisoTableAdapter.Update(this.servicoDataSet.tbServiso);
                     MessageBox.Show("Cadastro Realizado com sucesso", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
@@ -80,7 +80,7 @@ namespace ProjetoApostila.Formularios
                 if(cbmFiltrar.Text == "Código")
                 {
                     // Instrução da var SQL e conecar no cn
-                    string Sql = "SELECT * FROM tbServico WHERE idServico =" + txtPesquisar.Text + "";
+                    string Sql = "SELECT * FROM tbServiso WHERE idServico =" + txtPesquisar.Text + "";
                     // Lê os dados da Sql e conecta no cn
                     cmd = new SqlCommand(Sql, cn);
                     cn.Open();
@@ -98,7 +98,7 @@ namespace ProjetoApostila.Formularios
                 }
                 if(cbmFiltrar.Text == "Nome")
                 {
-                    string sql = "SELECT * FROM tbUsuario WHERE usuario LIKE '%" + txtPesquisar.Text + "%'";
+                    string sql = "SELECT * FROM tbServiso WHERE nome LIKE '%" + txtPesquisar.Text + "%'";
                     cmd = new SqlCommand(sql, cn);
                     cn.Open();
                     cmd.CommandType = CommandType.Text;

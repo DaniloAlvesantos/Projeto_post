@@ -10,7 +10,9 @@ C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\Projet
 C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.pdb
 C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.frmLogin.resources
 C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.Formularios.frmTelaPrincipal.resources
-C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.Formularios.testes.resources
 C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.Formularios.frmSplash.resources
 C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.Formularios.frmUsuarios.resources
 C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.Formularios.frmServico.resources
+C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.Formularios.frmCliente.resources
+C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.Formularios.frmRelOS.resources
+C:\Users\danilo.asantos31\source\repos\Projetos\ProjetoApostila\obj\Debug\ProjetoApostila.Formularios.cadastro.resources

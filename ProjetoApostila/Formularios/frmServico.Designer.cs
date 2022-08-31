@@ -63,11 +63,11 @@
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.tbServisoBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.cbmFiltrar = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtPesquisar = new System.Windows.Forms.TextBox();
             this.btnPesquisar = new System.Windows.Forms.Button();
+            this.txtPesquisar = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cbmFiltrar = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.tbServisoDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -184,7 +184,9 @@
             // 
             // idServicoTextBox
             // 
+            this.idServicoTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(56)))), ((int)(((byte)(121)))));
             this.idServicoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbServisoBindingSource, "idServico", true));
+            this.idServicoTextBox.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.idServicoTextBox.Location = new System.Drawing.Point(16, 43);
             this.idServicoTextBox.Name = "idServicoTextBox";
             this.idServicoTextBox.Size = new System.Drawing.Size(100, 20);
@@ -202,7 +204,9 @@
             // 
             // nomeTextBox
             // 
+            this.nomeTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(56)))), ((int)(((byte)(121)))));
             this.nomeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbServisoBindingSource, "nome", true));
+            this.nomeTextBox.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.nomeTextBox.Location = new System.Drawing.Point(132, 43);
             this.nomeTextBox.Name = "nomeTextBox";
             this.nomeTextBox.Size = new System.Drawing.Size(444, 20);
@@ -210,7 +214,9 @@
             // 
             // descricaoTextBox
             // 
+            this.descricaoTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(56)))), ((int)(((byte)(121)))));
             this.descricaoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbServisoBindingSource, "descricao", true));
+            this.descricaoTextBox.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.descricaoTextBox.Location = new System.Drawing.Point(16, 82);
             this.descricaoTextBox.Multiline = true;
             this.descricaoTextBox.Name = "descricaoTextBox";
@@ -219,7 +225,9 @@
             // 
             // observacaoTextBox
             // 
+            this.observacaoTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(56)))), ((int)(((byte)(121)))));
             this.observacaoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbServisoBindingSource, "observacao", true));
+            this.observacaoTextBox.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.observacaoTextBox.Location = new System.Drawing.Point(16, 172);
             this.observacaoTextBox.Multiline = true;
             this.observacaoTextBox.Name = "observacaoTextBox";
@@ -228,7 +236,9 @@
             // 
             // valorTextBox
             // 
+            this.valorTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(56)))), ((int)(((byte)(121)))));
             this.valorTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbServisoBindingSource, "valor", true));
+            this.valorTextBox.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.valorTextBox.Location = new System.Drawing.Point(19, 264);
             this.valorTextBox.Name = "valorTextBox";
             this.valorTextBox.Size = new System.Drawing.Size(100, 20);
@@ -236,7 +246,9 @@
             // 
             // dataDiaTextBox
             // 
+            this.dataDiaTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(56)))), ((int)(((byte)(121)))));
             this.dataDiaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbServisoBindingSource, "dataDia", true));
+            this.dataDiaTextBox.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.dataDiaTextBox.Location = new System.Drawing.Point(132, 264);
             this.dataDiaTextBox.Name = "dataDiaTextBox";
             this.dataDiaTextBox.Size = new System.Drawing.Size(100, 20);
@@ -244,7 +256,9 @@
             // 
             // cadastradoPorTextBox
             // 
+            this.cadastradoPorTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(56)))), ((int)(((byte)(121)))));
             this.cadastradoPorTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.tbServisoBindingSource, "cadastradoPor", true));
+            this.cadastradoPorTextBox.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cadastradoPorTextBox.Location = new System.Drawing.Point(263, 264);
             this.cadastradoPorTextBox.Name = "cadastradoPorTextBox";
             this.cadastradoPorTextBox.Size = new System.Drawing.Size(100, 20);
@@ -403,26 +417,27 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Pesquisar";
             // 
-            // label1
+            // btnPesquisar
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(75, 33);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Filtrar por";
+            this.btnPesquisar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(56)))), ((int)(((byte)(121)))));
+            this.btnPesquisar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnPesquisar.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnPesquisar.Location = new System.Drawing.Point(389, 31);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(75, 23);
+            this.btnPesquisar.TabIndex = 4;
+            this.btnPesquisar.Text = "Pesquisar";
+            this.btnPesquisar.UseVisualStyleBackColor = false;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
-            // cbmFiltrar
+            // txtPesquisar
             // 
-            this.cbmFiltrar.FormattingEnabled = true;
-            this.cbmFiltrar.Items.AddRange(new object[] {
-            "",
-            "Código",
-            "Nome"});
-            this.cbmFiltrar.Location = new System.Drawing.Point(132, 33);
-            this.cbmFiltrar.Name = "cbmFiltrar";
-            this.cbmFiltrar.Size = new System.Drawing.Size(121, 21);
-            this.cbmFiltrar.TabIndex = 1;
+            this.txtPesquisar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(56)))), ((int)(((byte)(121)))));
+            this.txtPesquisar.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.txtPesquisar.Location = new System.Drawing.Point(283, 33);
+            this.txtPesquisar.Name = "txtPesquisar";
+            this.txtPesquisar.Size = new System.Drawing.Size(100, 20);
+            this.txtPesquisar.TabIndex = 3;
             // 
             // label2
             // 
@@ -434,26 +449,34 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "=";
             // 
-            // txtPesquisar
+            // cbmFiltrar
             // 
-            this.txtPesquisar.Location = new System.Drawing.Point(283, 33);
-            this.txtPesquisar.Name = "txtPesquisar";
-            this.txtPesquisar.Size = new System.Drawing.Size(100, 20);
-            this.txtPesquisar.TabIndex = 3;
+            this.cbmFiltrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(56)))), ((int)(((byte)(121)))));
+            this.cbmFiltrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cbmFiltrar.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.cbmFiltrar.FormattingEnabled = true;
+            this.cbmFiltrar.Items.AddRange(new object[] {
+            "",
+            "Código",
+            "Nome"});
+            this.cbmFiltrar.Location = new System.Drawing.Point(132, 33);
+            this.cbmFiltrar.Name = "cbmFiltrar";
+            this.cbmFiltrar.Size = new System.Drawing.Size(121, 21);
+            this.cbmFiltrar.TabIndex = 1;
             // 
-            // btnPesquisar
+            // label1
             // 
-            this.btnPesquisar.Location = new System.Drawing.Point(389, 31);
-            this.btnPesquisar.Name = "btnPesquisar";
-            this.btnPesquisar.Size = new System.Drawing.Size(75, 23);
-            this.btnPesquisar.TabIndex = 4;
-            this.btnPesquisar.Text = "Pesquisar";
-            this.btnPesquisar.UseVisualStyleBackColor = true;
-            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(75, 33);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(50, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Filtrar por";
             // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.tbServisoDataGridView);
+            this.groupBox3.ForeColor = System.Drawing.Color.Black;
             this.groupBox3.Location = new System.Drawing.Point(53, 456);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(600, 317);
@@ -464,6 +487,7 @@
             // tbServisoDataGridView
             // 
             this.tbServisoDataGridView.AllowUserToAddRows = false;
+            this.tbServisoDataGridView.AllowUserToDeleteRows = false;
             this.tbServisoDataGridView.AutoGenerateColumns = false;
             this.tbServisoDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.tbServisoDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -478,6 +502,7 @@
             this.tbServisoDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbServisoDataGridView.Location = new System.Drawing.Point(3, 16);
             this.tbServisoDataGridView.Name = "tbServisoDataGridView";
+            this.tbServisoDataGridView.ReadOnly = true;
             this.tbServisoDataGridView.Size = new System.Drawing.Size(594, 298);
             this.tbServisoDataGridView.TabIndex = 0;
             this.tbServisoDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tbServisoDataGridView_CellContentClick);
@@ -487,52 +512,61 @@
             this.dataGridViewTextBoxColumn1.DataPropertyName = "idServico";
             this.dataGridViewTextBoxColumn1.HeaderText = "idServico";
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn2
             // 
             this.dataGridViewTextBoxColumn2.DataPropertyName = "nome";
             this.dataGridViewTextBoxColumn2.HeaderText = "nome";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn3
             // 
             this.dataGridViewTextBoxColumn3.DataPropertyName = "descricao";
             this.dataGridViewTextBoxColumn3.HeaderText = "descricao";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn4
             // 
             this.dataGridViewTextBoxColumn4.DataPropertyName = "observacao";
             this.dataGridViewTextBoxColumn4.HeaderText = "observacao";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn5
             // 
             this.dataGridViewTextBoxColumn5.DataPropertyName = "valor";
             this.dataGridViewTextBoxColumn5.HeaderText = "valor";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn6
             // 
             this.dataGridViewTextBoxColumn6.DataPropertyName = "dataDia";
             this.dataGridViewTextBoxColumn6.HeaderText = "dataDia";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn7
             // 
             this.dataGridViewTextBoxColumn7.DataPropertyName = "cadastradoPor";
             this.dataGridViewTextBoxColumn7.HeaderText = "Cadastrado por";
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
             // 
             // frmServico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(126)))), ((int)(((byte)(170)))));
             this.ClientSize = new System.Drawing.Size(716, 814);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.tbServisoBindingNavigator);
             this.Controls.Add(this.groupBox1);
+            this.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmServico";
